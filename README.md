@@ -31,7 +31,7 @@ This only works on Windows,
 and won't be ported to other platforms *(for obvious reasons)*.
 
 For all support needed, you can open an issue!
-And you can join our [Discord](https://dsc.gg/openm "OpenM Community") server
+And you can join our [Discord](https://dsc.gg/openm "OpenM Community") server or ask in [Reddit](https://openmcommunity.reddit.com/)
 for further support needed.
 
 ## :page_with_curl: License
