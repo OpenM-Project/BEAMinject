@@ -1,0 +1,27 @@
+name: Build binary release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build_windows64:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v4
+    
+    - name: Install Rust toolchain
+      uses: dtolnay/rust-toolchain@master
+
+    - name: Build BEAMinject
+      run: |
+        cargo build --release
+
+    - name: Upload binary
+      uses: actions/upload-artifact@v4
+      with:
+        name: BEAMinject
+        path: target\release\BEAMinject.exe
