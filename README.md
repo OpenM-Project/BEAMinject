@@ -12,6 +12,9 @@
 - Patching is done in memory, not modifying any system files
 - Doesn't affect any other apps, safely injects to Minecraft
 
+## :inbox_tray: Downloads
+You can download the latest nightly release [here](https://nightly.link/wavEye-Project/BEAMinject/workflows/build/main/BEAMinject.zip).
+
 ## :wrench: Usage
 Running BEAMinject as-is will patch Minecraft's release with logging by default.
 
@@ -26,9 +29,6 @@ Pass the **`-h`/`--help`** flag to BEAMinject in a command line for more info.
 **"It says it patched it, but it still doesn't work!" >** Give Minecraft ~10s to notice the patched library. Entering and quitting a world works too.
 
 If you have other issues, please create an issue.
-
-## :inbox_tray: Downloads
-Soon :eyes:
 
 ## :test_tube: ARM support
 The patcher supports ARM from the source. The emulation layer does not affect patching, and ARM versions of the game are still supported.
