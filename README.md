@@ -34,4 +34,4 @@ If you have other issues, please create an issue.
 The patcher supports ARM from the source. The emulation layer does not affect patching, and ARM versions of the game are still supported.
 
 ## :page_with_curl: License
-All code and assets are licensed under MPLv2.
+All code and assets are licensed under The Unlicense.
