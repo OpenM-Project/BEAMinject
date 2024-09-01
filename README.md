@@ -1,11 +1,11 @@
 <div align=center>
-    <h1>BEAMinject by wavEye</h1>Memory injection unlocker for Minecraft: Windows 10 Edition</p>
+    <h1>BEAMinject by OpenM</h1>Memory injection unlocker for Minecraft: Windows 10 Edition</p>
 </div>
 
 -----
 
 ## :zap: Features
-- Written in memory-safe Rust, using [`libdopamine`](https://github.com/wavEye-Project/libdopamine)
+- Written in memory-safe Rust, using [`libdopamine`](https://github.com/OpenM-Project/libdopamine)
 - Supports x86, x64, ARM64 and even ARM
 - Silent mode for no logging while injecting
 - Supports Minecraft Preview releases
@@ -13,7 +13,7 @@
 - Doesn't affect any other apps, safely injects to Minecraft
 
 ## :inbox_tray: Downloads
-You can download the latest nightly release [here](https://nightly.link/wavEye-Project/BEAMinject/workflows/build/main/BEAMinject.zip).
+You can download the latest nightly release [here](https://nightly.link/OpenM-Project/BEAMinject/workflows/build/main/BEAMinject.zip).
 
 ## :wrench: Usage
 Running BEAMinject as-is will patch Minecraft's release with logging by default.
@@ -34,4 +34,4 @@ If you have other issues, please create an issue.
 The patcher supports ARM from the source. The emulation layer does not affect patching, and ARM versions of the game are still supported.
 
 ## :page_with_curl: License
-All code and assets are licensed under The Unlicense.
+All code and assets are licensed under MIT license, see more at the [LICENSE](LICENSE) file.
