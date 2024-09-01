@@ -138,7 +138,6 @@ fn main() {
     println!("done!");
 
     let end = Instant::now();
-    println!("* 너 없이 완벽한 heaven~");
     println!("* Took {:.2?} to dump, patch and inject module", end - start);
     println!("* BEAMinject has sucessfully patched Minecraft");
     let _ = libdopamine::process::close_process_handle(process); exit(0);
